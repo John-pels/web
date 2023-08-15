@@ -1,9 +1,9 @@
-import { Footer } from "@/components";
+import { Button } from "@/components";
 
 export default function Home() {
   return (
     <>
-      <Footer />
+      <Button variant="outline" />
     </>
   )
 }

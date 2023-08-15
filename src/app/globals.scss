@@ -2,11 +2,15 @@
 
 :root {
   --width: 100%;
+  --color0:#fff;
   --color1: #11b07b;
   --color2: #3374a5;
   --color3: #d6a737;
   --gradient: linear-gradient(135deg, #11b07b 0%, #3374a5 100%);
   --color5: #103452;
+  --border-radius: 4px;
+  --btn-shadow:box-shadow: 2px 2px 25px 0px rgba(0, 0, 36, 0.12);
+
 }
 
 * {
