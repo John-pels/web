@@ -1,0 +1,64 @@
+@import "@scss/_mixins";
+
+.footer__container {
+  background: rgba(51, 116, 165, 0.06);
+  padding: 50px 0 0 0;
+}
+
+.footer {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 50px;
+  color: var(--color5);
+
+  &__itemGrid {
+    flex: 1;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(186px, 1fr));
+    grid-gap: 50px;
+  }
+
+  &__text {
+    font-style: normal;
+    font-weight: 500;
+    line-height: 32px;
+  }
+  &__social {
+    display: flex;
+    margin-top: 30px;
+    gap: 15px;
+  }
+
+  &__menu {
+    display: flex;
+    flex-direction: column;
+    &Title {
+      font-size: 20px;
+      font-weight: 600;
+      line-height: 40px;
+      margin-bottom: 15px;
+    }
+    &Link {
+      font-weight: 500;
+      line-height: 2.6;
+      transition: all 0.3s ease-in-out;
+
+      &:hover {
+        filter: brightness(1.5);
+      }
+    }
+  }
+
+  &__hr {
+    height: 1px;
+    margin-top: 45px;
+    background: #d2d2d2;
+    border: none;
+  }
+  &__copyright {
+    opacity: 0.5;
+    font-weight: 500;
+    padding: 20px 0;
+    text-align: center;
+  }
+}

@@ -1,0 +1,41 @@
+@import "@scss/_reset";
+
+:root {
+  --width: 100%;
+  --color1: #11b07b;
+  --color2: #3374a5;
+  --color3: #d6a737;
+  --gradient: linear-gradient(135deg, #11b07b 0%, #3374a5 100%);
+  --color5: #103452;
+}
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+html,
+body {
+  max-width: 100vw;
+  overflow-x: hidden;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+.container {
+  width: var(--width);
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.container-fluid {
+  width: var(--width);
+  max-width: 1300px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
