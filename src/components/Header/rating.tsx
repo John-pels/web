@@ -1,6 +1,6 @@
 import Image from 'next/image'
 import styles from './style.module.scss'
-import Ratings from '../Icons/misc'
+import { Ratings } from '../Icons/misc'
 
 
 
