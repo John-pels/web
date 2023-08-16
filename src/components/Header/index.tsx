@@ -2,9 +2,9 @@ import styles from "./style.module.scss"
 import { Button } from ".."
 import { Play } from "../Icons/Play"
 import Image from "next/image"
-import { Stat } from "../Icons/Stat"
 import { Kite, Mask, Pyramid, Star, Triangle } from "../Icons/misc"
 import { Rating } from "./rating"
+import { Stat } from "../Icons/Stat"
 
 export const Header = () => {
     return (

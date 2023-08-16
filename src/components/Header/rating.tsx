@@ -3,6 +3,7 @@ import styles from './style.module.scss'
 import Ratings from '../Icons/misc'
 
 
+
 export const Rating = () => (
     <section className={styles.rating}>
         <h5 className={styles.rating__heading}>Some of the awards we’ve gotten across the world</h5>
