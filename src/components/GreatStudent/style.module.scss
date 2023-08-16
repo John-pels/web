@@ -1,7 +1,7 @@
 @import "@scss/_mixins";
 
-.statistics {
-  text-align: center;
+.greatstudent {
+  color: var(--color5);
 
   &__heading {
     color: var(--colour-d);
@@ -9,8 +9,10 @@
     font-weight: 600;
     line-height: 44px;
     padding-top: 50px;
+    text-align: center;
   }
   &__subHeading {
+    text-align: center;
     color: var(--colour5);
     font-size: 16px;
     font-weight: 500;
@@ -39,40 +41,43 @@
   }
 
   &__card {
-    text-align: center;
+    display: flex;
+    gap: 10px;
+    align-items: flex-start;
     border-radius: 12px;
     box-shadow: 0px 0px 60px 1px rgba(0, 0, 0, 0.07);
-    padding: 50px 40px;
+    padding: 20px;
 
     @include for-small-phone-only {
-      padding: 20px;
+      padding: 10px;
+      flex-wrap: wrap;
     }
     @include for-tablet-portrait-up {
-      padding: 20px;
+      padding: 10px;
+      flex-wrap: wrap;
     }
 
-    &Figure {
-      color: var(--color2);
-      font-size: 60px;
-      font-weight: 600;
-      line-height: 80px;
-      @include for-small-phone-only {
-        font-size: 30px;
-      }
-      @include for-tablet-portrait-up {
-        font-size: 40px;
-      }
+    &__cardImage {
+      border-radius: 12px;
     }
-    &Title {
-      color: var(--color5);
+  }
+  &__studentName {
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 30px;
+    @include for-small-phone-only {
       font-size: 20px;
-      font-weight: 600;
-      line-height: 40px;
+      line-height: 20px;
     }
-    &Description {
-      color: var(--color5);
-      font-weight: 500;
-      line-height: 32px;
+  }
+  &__studentRole {
+    font-weight: 500;
+    line-height: 32px;
+    padding: 10px 0 15px;
+    @include for-small-phone-only {
+      font-size: 14px;
+      line-height: 25px;
+      padding: 8px;
     }
   }
 }
