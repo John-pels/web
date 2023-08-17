@@ -6,10 +6,10 @@
   color: var(--color5);
 
   @include for-small-phone-only {
-    padding: 0;
+    padding: 50px 0;
   }
   @include for-tablet-portrait-up {
-    padding: 0;
+    padding: 50px 0;
   }
   &__flex {
     display: flex;
@@ -73,6 +73,7 @@
     line-height: 40px;
     @include for-small-phone-only {
       font-size: 16px;
+      line-height: 24px;
     }
   }
 

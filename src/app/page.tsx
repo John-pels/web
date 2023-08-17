@@ -1,4 +1,4 @@
-import { GreatStudent, JobReady, Statistics } from "@/components";
+import { GreatStudent, JobReady, LeadingCompanies, Statistics, SuccessStories } from "@/components";
 
 
 export default function Home() {
@@ -7,6 +7,8 @@ export default function Home() {
       <Statistics />
       <JobReady />
       <GreatStudent />
+      <SuccessStories />
+      <LeadingCompanies />
     </>
   )
 }

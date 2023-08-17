@@ -161,3 +161,27 @@ export const Check = () => (
 )
 
 
+export const SliderButton = (props: SVGProps<SVGSVGElement>) => (
+    <svg
+        xmlns="http://www.w3.org/2000/svg"
+        width={38}
+        height={38}
+        fill="none"
+        {...props}
+    >
+        <path
+            stroke="#000024"
+            strokeLinecap="round"
+            strokeLinejoin="round"
+            strokeWidth={1.5}
+            d="M19 34.833c-8.745 0-15.833-7.088-15.833-15.833 0-8.744 7.088-15.833 15.833-15.833 8.744 0 15.833 7.089 15.833 15.833 0 8.745-7.088 15.833-15.833 15.833ZM13.458 19h9.5"
+        />
+        <path
+            stroke="#000024"
+            strokeLinecap="round"
+            strokeLinejoin="round"
+            strokeWidth={1.5}
+            d="m19.792 14.25 4.75 4.75-4.75 4.75"
+        />
+    </svg>
+)

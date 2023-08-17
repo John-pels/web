@@ -5,3 +5,5 @@ export * from "./Statistics";
 export * from "./Icons";
 export * from "./JobReady";
 export * from "./GreatStudent";
+export * from "./LeadingCompanies";
+export * from "./SuccessStories";

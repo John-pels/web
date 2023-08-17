@@ -36,6 +36,7 @@ export const JobReady = () => {
                     <p className={styles.jobready__iconText}><Check /> Your code is reviewed by professionals</p>
                     <p className={classNames(styles.jobready__iconText, styles.my)}> <Check />Accessible education</p>
                     <Button text='Get Started' />
+
                 </div>
             </div>
         </section>

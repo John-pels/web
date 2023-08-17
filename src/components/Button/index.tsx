@@ -5,7 +5,7 @@ import { ChevronRight } from '../Icons'
 
 type IButton = {
     text?: string
-    variant?: 'gradient' | 'outline'
+    variant?: 'gradient' | 'outline' | 'outline0'
     isFluid?: boolean
     showArrow?: boolean
 } & React.ComponentPropsWithoutRef<'button'>
@@ -14,7 +14,8 @@ export const Button: FC<IButton> = ({ text = 'Enroll Now', variant = 'gradient',
     const type = variant === 'gradient' ?
         styles.gradient :
         variant === 'outline' ?
-            styles.outline : styles.fluid
+            styles.outline : variant === 'outline0' ?
+                styles.outline0 : styles.fluid
     return (
         <button
             className={
