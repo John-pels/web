@@ -28,6 +28,7 @@ export const Header = () => {
                     <div className={styles.div1}>
                         <Image
                             src='/images/lady.svg'
+                            priority
                             alt="lady"
                             sizes="100vw"
                             style={{
@@ -47,6 +48,7 @@ export const Header = () => {
                         <Image
                             src='/images/lady_with_headset.svg'
                             alt="lady"
+                            priority
                             sizes="100vw"
                             style={{
                                 width: '100%',
@@ -65,6 +67,7 @@ export const Header = () => {
                     <div className={styles.div5}>
                         <Image
                             src='/images/guy.svg'
+                            priority
                             alt="guy"
                             sizes="100vw"
                             style={{

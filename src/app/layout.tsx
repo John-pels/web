@@ -1,4 +1,5 @@
-import { Footer, Header } from '@/components'
+
+import { Footer, Header, Navbar } from '@/components'
 import './globals.scss'
 import type { Metadata } from 'next'
 import { Montserrat } from 'next/font/google'
@@ -18,6 +19,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={montserrat.className}>
+        <Navbar />
         <Header />
         {children}
         <Footer />
